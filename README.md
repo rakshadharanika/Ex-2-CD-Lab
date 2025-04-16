@@ -1,6 +1,6 @@
 # Ex-2-GENERATION OF LEXICAL TOKENS LEX FLEX TOOL
-## Name : V Raksha Dharanika
-## Reg No: 212223230167
+## Name   : V Raksha Dharanika
+## Reg No : 212223230167
 # AIM
 ## To write a lex program to implement lexical analyzer to recognize a few patterns.
 # ALGORITHM
@@ -34,6 +34,7 @@
 7.	Compile that file with C compiler and verify the output.
 
 # INPUT
+##  Lex Program
 ```py
 
 /* program name is lexp.l */
@@ -80,10 +81,27 @@ int yywrap() {
 
 
 ```
+## C Program
+```py
+#include <stdio.h>
+
+int main() {
+    int a, b;
+    a = 10;
+    b = 20;
+    if (a < b) {
+        printf("a is less than b\n");
+    }
+    return 0;
+}
+
+```
+
 # OUTPUT
 
 ![image](https://github.com/user-attachments/assets/f15cefdd-a0a3-4e0b-82b6-7cc404f68aac)
-![image](https://github.com/user-attachments/assets/1ea584bc-f1a0-4971-8bbe-acb8e5a5d519)
+![image](https://github.com/user-attachments/assets/7ac1bc6e-05c6-4cb8-ae48-42e60d87de53)
+
 
 
 # RESULT
